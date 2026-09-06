@@ -1,0 +1,211 @@
+2026-09-04 23:56:24:5624 [32minfo[39m: [32m🚀 Cipher Mutex ERP Server running on port 5001 in development mode[39m
+2026-09-04 23:56:24:5624 [32minfo[39m: [32m✅ MongoDB Connected: localhost[39m
+2026-09-05 00:22:37:2237 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 00:37:47:3747 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 00:54:33:5433 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 01:11:47:1147 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 01:29:42:2942 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 01:47:43:4743 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 02:03:02:32 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 02:05:58:558 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 02:08:29:829 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 02:08:39:839 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 02:19:51:1951 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 02:20:01:201 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 02:37:02:372 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 02:53:15:5315 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 03:06:53:653 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 03:07:03:73 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 03:25:10:2510 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 03:41:34:4134 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 03:58:53:5853 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 04:07:56:756 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 04:24:13:2413 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 04:26:37:2637 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 04:44:40:4440 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 04:44:50:4450 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 05:02:31:231 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 05:08:58:858 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 05:26:26:2626 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 05:26:36:2636 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 05:43:20:4320 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 05:50:16:5016 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 06:08:27:827 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 06:08:44:844 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 06:22:05:225 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 06:22:15:2215 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 06:23:38:2338 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 06:23:48:2348 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 06:39:25:3925 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 06:39:35:3935 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 06:48:17:4817 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 06:48:27:4827 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 06:50:13:5013 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 06:50:23:5023 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 07:01:44:144 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 07:01:54:154 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 07:03:18:318 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 07:03:29:329 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 07:09:53:953 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 07:10:03:103 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 07:26:39:2639 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 07:41:50:4150 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 07:52:10:5210 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 07:52:20:5220 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 07:56:49:5649 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 07:56:59:5659 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 07:58:13:5813 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 07:58:23:5823 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:09:25:925 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 08:09:35:935 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:15:05:155 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 08:15:15:1515 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:21:13:2113 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 08:21:23:2123 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:23:00:230 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 08:23:10:2310 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:27:07:277 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 08:27:17:2717 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:32:32:3232 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 08:32:42:3242 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:34:15:3415 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 08:34:25:3425 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:36:06:366 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 08:36:17:3617 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 08:52:04:524 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 09:09:53:953 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 09:26:47:2647 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 09:42:55:4255 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 10:11:53:1153 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 10:12:03:123 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 10:28:03:283 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 10:32:56:3256 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 10:50:20:5020 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 11:05:38:538 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 11:30:12:3012 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 11:47:36:4736 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 12:13:53:1353 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 12:14:03:143 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 12:32:16:3216 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 12:49:43:4943 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 13:14:53:1453 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 13:15:03:153 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 13:33:23:3323 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 13:50:23:5023 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 14:15:53:1553 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 14:16:03:163 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 14:32:11:3211 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 14:45:46:4546 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 14:47:59:4759 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 15:00:47:047 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 16:10:06:106 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 16:10:17:1017 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 17:45:48:4548 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 17:50:12:5012 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 18:08:01:81 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 18:25:42:2542 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 18:56:52:5652 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 19:14:51:1451 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 19:46:24:4624 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 20:04:18:418 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 20:20:47:2047 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 20:31:08:318 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 21:02:48:248 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 21:19:10:1910 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 21:49:42:4942 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 21:49:52:4952 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 21:52:30:5230 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 21:52:40:5240 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 22:11:00:110 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 22:17:48:1748 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 22:33:03:333 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 22:33:13:3313 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 22:49:19:4919 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 23:04:45:445 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 23:34:04:344 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 23:34:14:3414 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 23:39:31:3931 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-05 23:39:41:3941 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-05 23:56:28:5628 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 00:06:09:69 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 00:23:14:2314 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 00:35:08:358 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 00:50:51:5051 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 00:51:01:511 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 01:07:05:75 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 01:24:20:2420 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 01:33:09:339 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 01:33:19:3319 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 01:50:24:5024 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 02:06:56:656 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 02:23:58:2358 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 02:39:22:3922 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 03:09:37:937 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 03:16:06:166 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 03:34:08:348 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 03:50:13:5013 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 04:05:36:536 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 04:21:08:218 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 04:28:38:2838 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 04:28:48:2848 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 04:46:55:4655 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 05:04:53:453 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 05:22:38:2238 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 05:40:01:401 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 05:55:25:5525 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 06:10:43:1043 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 06:29:38:2938 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 06:29:48:2948 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 06:45:53:4553 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 07:03:53:353 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 07:21:43:2143 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 07:30:43:3043 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 07:47:30:4730 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 08:03:49:349 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 08:15:01:151 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 08:15:11:1511 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 08:31:38:3138 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 08:31:48:3148 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 08:48:47:4847 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:06:51:651 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 09:09:44:944 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:09:54:954 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 09:25:31:2531 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:25:41:2541 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 09:32:36:3236 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:32:46:3246 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 09:34:44:3444 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:34:54:3454 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 09:36:41:3641 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:36:51:3651 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 09:39:30:3930 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:39:40:3940 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 09:45:43:4543 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:45:53:4553 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 09:52:04:524 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 09:52:14:5214 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 10:07:57:757 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 10:11:04:114 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 10:21:28:2128 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 10:21:38:2138 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 10:30:35:3035 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 10:30:45:3045 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 10:33:36:3336 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 10:33:46:3346 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 10:48:50:4850 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 10:49:00:490 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 10:52:42:5242 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 10:52:52:5252 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 11:44:37:4437 [31merror[39m: [31m404 - Route not found: / - / - GET - ::1[39m
+2026-09-06 11:44:37:4437 [31merror[39m: [31m404 - Route not found: /favicon.ico - /favicon.ico - GET - ::1[39m
+2026-09-06 11:46:24:4624 [31merror[39m: [31m404 - Route not found: / - / - GET - ::1[39m
+2026-09-06 12:00:10:010 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 12:00:20:020 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 12:03:11:311 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 12:03:21:321 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 12:10:25:1025 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 12:10:35:1035 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 12:16:01:161 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 12:16:11:1611 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 12:28:25:2825 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
+2026-09-06 12:28:31:2831 [32minfo[39m: [32m✅ MongoDB reconnected[39m
