@@ -2,6 +2,7 @@
   "name": "cx-erp",
   "version": "1.0.0",
   "description": "Cipher Mutex ERP & CEO Dashboard",
+  "main": "server.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd server && npm run dev",
