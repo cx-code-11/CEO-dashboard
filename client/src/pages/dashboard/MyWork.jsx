@@ -134,7 +134,7 @@ export default function MyWork() {
                     <div className="flex-1">
                       <p className="text-slate-700 dark:text-slate-200 text-[15px] leading-snug">{reminder.text}</p>
                       <span className="text-xs text-slate-400 mt-2 block">
-                        Added {dayjs(reminder.createdAt).fromNow()}
+                        Added {dayjs(reminder.createdAt).format('MMM D, YYYY h:mm:ss A')}
                       </span>
                     </div>
                     <button 
