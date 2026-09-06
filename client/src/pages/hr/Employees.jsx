@@ -6,7 +6,7 @@ import Modal from '../../components/ui/Modal';
 import AddEmployeeForm from '../../components/forms/AddEmployeeForm';
 
 const Employees = () => {
-  const [employees, setEmployees] = null;
+  const [employees, setEmployees] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
