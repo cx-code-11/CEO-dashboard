@@ -40,6 +40,9 @@ const webhookRoutes = require('./routes/webhooks.routes');
 
 const app = express();
 
+// Trust Proxy for Hostinger/LiteSpeed
+app.set('trust proxy', 1);
+
 // Connect Database
 connectDB();
 
