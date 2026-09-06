@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react';
 import { Target, CheckCircle2, Circle, Plus, Trash2, Calendar as CalendarIcon, Clock } from 'lucide-react';
 import api from '../../api/axios';
 import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
+
+dayjs.extend(relativeTime);
 
 export default function MyWork() {
   const [reminders, setReminders] = useState([]);
