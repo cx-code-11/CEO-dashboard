@@ -209,3 +209,9 @@
 2026-09-06 12:16:11:1611 [32minfo[39m: [32m✅ MongoDB reconnected[39m
 2026-09-06 12:28:25:2825 [33mwarn[39m: [33m⚠️  MongoDB disconnected. Attempting to reconnect...[39m
 2026-09-06 12:28:31:2831 [32minfo[39m: [32m✅ MongoDB reconnected[39m
+2026-09-06 12:44:14:4414 [32minfo[39m: [32m🚀 Cipher Mutex ERP Server running on port 5001 in development mode[39m
+2026-09-06 12:44:14:4414 [32minfo[39m: [32m✅ MongoDB Connected: localhost[39m
+2026-09-06 12:49:15:4915 [32minfo[39m: [32m🚀 Cipher Mutex ERP Server running on port 5001 in development mode[39m
+2026-09-06 12:49:15:4915 [32minfo[39m: [32m✅ MongoDB Connected: localhost[39m
+2026-09-06 12:49:49:4949 [32minfo[39m: [32m🚀 Cipher Mutex ERP Server running on port 5001 in development mode[39m
+2026-09-06 12:49:49:4949 [32minfo[39m: [32m✅ MongoDB Connected: localhost[39m

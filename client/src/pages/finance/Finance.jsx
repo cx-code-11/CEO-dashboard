@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react';
-import { DollarSign, Plus, Search, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { DollarSign, Plus, Search, ArrowUpRight, ArrowDownRight, UploadCloud } from 'lucide-react';
 import api from '../../api/axios';
 import dayjs from 'dayjs';
 import Modal from '../../components/ui/Modal';
 import AddTransactionForm from '../../components/forms/AddTransactionForm';
+import ImportStatementModal from '../../components/forms/ImportStatementModal';
 
 const Finance = () => {
   const [transactions, setTransactions] = useState(null);
   const [loading, setLoading] = useState(true);
   const [typeFilter, setTypeFilter] = useState('All');
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isImportModalOpen, setIsImportModalOpen] = useState(false);
   const [transactionType, setTransactionType] = useState('Income');
 
   useEffect(() => {
@@ -41,6 +43,9 @@ const Finance = () => {
           <p className="text-slate-500 dark:text-slate-400">Track all standalone financial transactions.</p>
         </div>
         <div className="flex gap-2">
+          <button onClick={() => setIsImportModalOpen(true)} className="btn-secondary">
+            <UploadCloud size={18} className="mr-2" /> Import Statement
+          </button>
           <button onClick={() => { setTransactionType('Income'); setIsModalOpen(true); }} className="btn bg-green-500 text-white hover:bg-green-600">
             <Plus size={18} className="mr-2" /> Record Income
           </button>
@@ -127,6 +132,17 @@ const Finance = () => {
             fetchTransactions();
           }} 
           onCancel={() => setIsModalOpen(false)} 
+        />
+      </Modal>
+
+      <Modal isOpen={isImportModalOpen} onClose={() => setIsImportModalOpen(false)} title="Import Bank Statement" maxWidth="max-w-md">
+        <ImportStatementModal 
+          onSuccess={(data) => {
+            setIsImportModalOpen(false);
+            alert(`Imported ${data.incomeCount} Incomes and ${data.expenseCount} Expenses successfully!`);
+            fetchTransactions();
+          }} 
+          onCancel={() => setIsImportModalOpen(false)} 
         />
       </Modal>
     </div>

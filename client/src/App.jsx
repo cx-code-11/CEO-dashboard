@@ -8,6 +8,7 @@ import MainLayout from './components/layout/MainLayout';
 // Pages
 import Login from './pages/auth/Login';
 import Dashboard from './pages/dashboard/Dashboard';
+import ERPCalendar from './pages/calendar/Calendar';
 import Employees from './pages/hr/Employees';
 import Attendance from './pages/hr/Attendance';
 import Leaves from './pages/hr/Leaves';
@@ -52,6 +53,7 @@ function App() {
       <Route path="/" element={<ProtectedRoute><MainLayout /></ProtectedRoute>}>
         <Route index element={<Navigate to="/dashboard" replace />} />
         <Route path="dashboard" element={<Dashboard />} />
+        <Route path="calendar" element={<ERPCalendar />} />
         
         {/* HR Routes */}
         <Route path="hr/employees" element={<Employees />} />

@@ -3,7 +3,7 @@ import {
   LayoutDashboard, Users, FileText, Briefcase, 
   DollarSign, FileStack, FolderOpen, PieChart, 
   Settings, LogOut, ChevronLeft, Building2, UserPlus, 
-  Wallet, Monitor, CheckSquare
+  Wallet, Monitor, CheckSquare, Calendar as CalendarIcon
 } from 'lucide-react';
 import useAuthStore from '../../store/authStore';
 
@@ -16,6 +16,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       title: 'OVERVIEW',
       items: [
         { name: 'Dashboard', icon: LayoutDashboard, path: '/dashboard', roles: ['CEO', 'HR Manager', 'Finance Manager', 'Sales Executive', 'Project Manager', 'Employee'] },
+        { name: 'Calendar', icon: CalendarIcon, path: '/calendar', roles: ['CEO', 'HR Manager', 'Finance Manager', 'Sales Executive', 'Project Manager', 'Employee'] },
         { name: 'Reports', icon: PieChart, path: '/reports', roles: ['CEO', 'Finance Manager'] },
       ]
     },
