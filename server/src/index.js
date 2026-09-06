@@ -37,6 +37,7 @@ const dashboardRoutes = require('./routes/dashboard.routes');
 const notificationRoutes = require('./routes/notifications.routes');
 const auditRoutes = require('./routes/auditlogs.routes');
 const webhookRoutes = require('./routes/webhooks.routes');
+const reminderRoutes = require('./routes/reminders.routes');
 
 const app = express();
 
@@ -113,6 +114,7 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/notifications', notificationRoutes);
 app.use('/api/audit', auditRoutes);
 app.use('/api/webhooks', webhookRoutes); // Make.com integration
+app.use('/api/reminders', reminderRoutes);
 
 // Serve frontend in production (For Hostinger / Shared Hosting)
 if (process.env.NODE_ENV === 'production') {
