@@ -29,6 +29,10 @@ import Tasks from './pages/finance/Tasks';
 import Assets from './pages/assets/Assets';
 import Documents from './pages/assets/Documents';
 
+// System Pages
+import Reports from './pages/reports/Reports';
+import Settings from './pages/settings/Settings';
+
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated } = useAuthStore();
   const location = useLocation();
@@ -76,8 +80,9 @@ function App() {
         <Route path="assets" element={<Assets />} />
         <Route path="documents" element={<Documents />} />
 
-        {/* Reports & Settings Placeholder */}
-        <Route path="settings" element={<div className="p-8 dark:text-white">Settings Page - Coming Soon</div>} />
+        {/* Reports & Settings */}
+        <Route path="reports" element={<Reports />} />
+        <Route path="settings" element={<Settings />} />
         
         <Route path="*" element={<div className="p-8 text-center text-red-500 font-bold text-xl mt-20">404 - Page Not Found</div>} />
       </Route>
