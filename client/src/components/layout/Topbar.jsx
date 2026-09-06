@@ -1,8 +1,18 @@
+import { useState, useEffect } from 'react';
 import { Menu, Sun, Moon, Bell } from 'lucide-react';
+import dayjs from 'dayjs';
 import useAuthStore from '../../store/authStore';
 
 const Topbar = ({ sidebarOpen, setSidebarOpen, darkMode, toggleTheme }) => {
   const { user } = useAuthStore();
+  const [time, setTime] = useState(dayjs());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTime(dayjs());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <header className="h-16 flex items-center justify-between px-4 md:px-6 bg-white dark:bg-dark-card border-b border-slate-200 dark:border-dark-border z-10 sticky top-0 transition-colors">
@@ -15,9 +25,14 @@ const Topbar = ({ sidebarOpen, setSidebarOpen, darkMode, toggleTheme }) => {
             <Menu size={20} />
           </button>
         )}
-        <h1 className="text-xl font-semibold text-slate-800 dark:text-white hidden sm:block">
-          Welcome back, {user?.name?.split(' ')[0] || 'User'}
-        </h1>
+        <div className="hidden sm:block">
+          <h1 className="text-xl font-semibold text-slate-800 dark:text-white leading-tight">
+            Welcome back, {user?.name?.split(' ')[0] || 'User'}
+          </h1>
+          <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+            {time.format('MMM D, YYYY • hh:mm:ss A')}
+          </p>
+        </div>
       </div>
 
       <div className="flex items-center space-x-3 md:space-x-4">
