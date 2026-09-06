@@ -111,6 +111,23 @@ app.use('/api/notifications', notificationRoutes);
 app.use('/api/audit', auditRoutes);
 app.use('/api/webhooks', webhookRoutes); // Make.com integration
 
+// Serve frontend in production (For Hostinger / Shared Hosting)
+if (process.env.NODE_ENV === 'production') {
+  // Set static folder to the client's build directory
+  app.use(express.static(path.join(__dirname, '../../client/dist')));
+
+  // Any route that is not an API route will hit this catch-all
+  // and send back the React index.html file for client-side routing
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../../client/dist', 'index.html'));
+  });
+} else {
+  // Default route in development
+  app.get('/', (req, res) => {
+    res.send('API is running in development mode...');
+  });
+}
+
 // Error Handling
 app.use(notFound);
 app.use(errorHandler);
