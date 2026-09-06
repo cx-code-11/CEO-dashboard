@@ -17,7 +17,7 @@ const AddEmployeeForm = ({ onSuccess, onCancel }) => {
     // Employee fields
     designation: '',
     joiningDate: '',
-    employmentType: 'Full-Time',
+    employmentType: 'Full-time',
     salary: ''
   });
 
@@ -55,7 +55,7 @@ const AddEmployeeForm = ({ onSuccess, onCancel }) => {
         department: formData.department,
         joiningDate: formData.joiningDate,
         employmentType: formData.employmentType,
-        salary: Number(formData.salary)
+        salary: { basic: Number(formData.salary) }
       });
 
       if (empRes.data.success) {
@@ -117,10 +117,10 @@ const AddEmployeeForm = ({ onSuccess, onCancel }) => {
         <div className="space-y-1">
           <label className="text-sm font-medium text-slate-700 dark:text-slate-300">Employment Type</label>
           <select name="employmentType" required value={formData.employmentType} onChange={handleChange} className="input-field">
-            <option value="Full-Time">Full-Time</option>
-            <option value="Part-Time">Part-Time</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
             <option value="Contract">Contract</option>
-            <option value="Internship">Internship</option>
+            <option value="Intern">Intern</option>
           </select>
         </div>
         <div className="space-y-1">
