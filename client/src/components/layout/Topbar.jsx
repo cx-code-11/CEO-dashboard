@@ -29,13 +29,19 @@ const Topbar = ({ sidebarOpen, setSidebarOpen, darkMode, toggleTheme }) => {
           <h1 className="text-xl font-semibold text-slate-800 dark:text-white leading-tight">
             Welcome back, {user?.name?.split(' ')[0] || 'User'}
           </h1>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-            {time.format('MMM D, YYYY • hh:mm:ss A')}
-          </p>
         </div>
       </div>
 
       <div className="flex items-center space-x-3 md:space-x-4">
+        {/* Digital Clock */}
+        <div className="hidden lg:flex flex-col items-end justify-center px-3 py-1 bg-slate-900 dark:bg-[#0f111a] rounded-lg border border-slate-700/50 shadow-inner mr-2">
+          <span className="text-[10px] uppercase tracking-widest text-primary-400/80 font-semibold mb-[-2px]">
+            {time.format('MMM D, YYYY')}
+          </span>
+          <span className="font-mono text-sm tracking-wider text-cyan-400 font-bold">
+            {time.format('HH:mm:ss')}
+          </span>
+        </div>
         <button 
           onClick={toggleTheme}
           className="p-2 rounded-full text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
