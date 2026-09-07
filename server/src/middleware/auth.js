@@ -53,18 +53,18 @@ const authorize = (...roles) => {
 const ceoOnly = authorize('CEO');
 
 // Finance roles
-const financeAccess = authorize('CEO', 'Finance Manager');
+const financeAccess = authorize('CEO', 'Manager', 'Finance Manager');
 
 // HR roles
-const hrAccess = authorize('CEO', 'HR Manager');
+const hrAccess = authorize('CEO', 'Manager', 'HR Manager');
 
 // Sales roles
-const salesAccess = authorize('CEO', 'Finance Manager', 'Sales Executive');
+const salesAccess = authorize('CEO', 'Manager', 'Finance Manager', 'Sales Executive');
 
 // Project roles
-const projectAccess = authorize('CEO', 'Project Manager');
+const projectAccess = authorize('CEO', 'Manager', 'Project Manager');
 
 // Management (all except plain employees)
-const managementAccess = authorize('CEO', 'HR Manager', 'Finance Manager', 'Sales Executive', 'Project Manager');
+const managementAccess = authorize('CEO', 'Manager', 'HR Manager', 'Finance Manager', 'Sales Executive', 'Project Manager');
 
 module.exports = { protect, authorize, ceoOnly, financeAccess, hrAccess, salesAccess, projectAccess, managementAccess };
