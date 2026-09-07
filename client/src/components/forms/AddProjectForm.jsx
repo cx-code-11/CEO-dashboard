@@ -10,7 +10,7 @@ const AddProjectForm = ({ onSuccess, onCancel }) => {
     name: '',
     client: '',
     startDate: '',
-    endDate: '',
+    deadline: '',
     budget: '',
     status: 'Planning',
     description: ''
@@ -84,8 +84,8 @@ const AddProjectForm = ({ onSuccess, onCancel }) => {
           <input type="date" name="startDate" required value={formData.startDate} onChange={handleChange} className="input-field" />
         </div>
         <div className="space-y-1">
-          <label className="text-sm font-medium text-slate-700 dark:text-slate-300">End Date</label>
-          <input type="date" name="endDate" value={formData.endDate} onChange={handleChange} className="input-field" />
+          <label className="text-sm font-medium text-slate-700 dark:text-slate-300">Deadline *</label>
+          <input type="date" name="deadline" required value={formData.deadline} onChange={handleChange} className="input-field" />
         </div>
         
         <div className="space-y-1">

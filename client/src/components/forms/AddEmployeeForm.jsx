@@ -94,6 +94,7 @@ const AddEmployeeForm = ({ onSuccess, onCancel }) => {
           <label className="text-sm font-medium text-slate-700 dark:text-slate-300">Role *</label>
           <select name="role" required value={formData.role} onChange={handleChange} className="input-field">
             <option value="Employee">Employee</option>
+            <option value="Manager">Manager</option>
             <option value="HR Manager">HR Manager</option>
             <option value="Finance Manager">Finance Manager</option>
             <option value="Sales Executive">Sales Executive</option>
